@@ -2,7 +2,7 @@
 
 
 :root {
-    --cor-de-fundo: #e61a57c4;
+    --cor-de-fundo: #e61a5785;
     --rosa: #ff57b3b6;
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
@@ -12,4 +12,8 @@
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco);
+    font-family: 'Roboto Condensed';
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    font-size: 18px;
 }
